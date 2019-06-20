@@ -1,0 +1,118 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>Website | Home</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!---------------------Google fonts Raleway and Pacifico----------------->
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    
+    <!---------------------Font-Awesome Library for social media icons----------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!---------------------Pre loaded boilerplate links----------------->
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="theme-color" content="#fafafa">
+  </head>
+
+  <body>
+    <!-----------------------Header-------------------------->
+    <header>
+      <div id=logo>
+        <a href="#"><img src="img/logo.png" alt="Website-logo"></a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Home</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!------------------------main body------------------------>
+    <div class="body">
+      <!-----------Hero element------------->
+      <div class="hero">
+        <div class="hero-image">
+          <div class="hero-text">
+            <h3>We make</h3>
+            <h1>Websites</h1>
+          </div>
+        </div>
+      </div>
+
+      <!----------------------Flex Container for 3 columns----------------->
+      <div class="flex-container">
+        <div class="flex-item"><!--------- Flex item 1------------->
+          <img src="img/stub-1.png" alt="demo-website-1-screenclip"><br>
+          <button class="btn"><a href="#">Demo</a></button></div>
+        <div class="flex-item"><!--------- Flex item 2------------->
+          <img src="img/stub-2.png" alt="demo-website-2-screenclip"><br>
+          <button class="btn"><a href="#">Demo</a></button></div>
+        <div class="flex-item"><!--------- Flex item 3------------->
+          <img src="img/stub-3.jpg" alt="demo-website-3-screenclip"><br>
+          <button class="btn"><a href="#">Demo</a></button></div>
+      </div>
+
+      <!----------------------Flex Container for 2 columns----------------->
+      <div class="flex-container">
+        <div class="flex-item other"><img src="img/stub-4.png" alt="demo-website-4-screenclip"><br><!--------- Flex item 1------------->
+          <h3>Your Website, the way you want it.</h3>
+        </div>
+        <!----------------------Flex item 2 as well as Flex Container for 3 rows----------------->
+        <!---------- flex-container1 used to make a container with different direction--------------->
+        <div class="flex-item other flex-container1"><!--- class other used to set a different background color --->
+          <div class="flex-item1"><!--------- Sub Flex item 1------------->
+            <h1>Clean</h1>
+          </div>
+          <div class="flex-item1"><!--------- Sub Flex item 2------------->
+            <h1>Beautiful</h1>
+          </div>
+          <div class="flex-item1"><!--------- Sub Flex item 3------------->
+            <h1>Efficient</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------- Footer ------------>
+    <footer>
+      <h2>We make <span id="logo-text">Website</span> s!</h2>
+      Follow us on:<br>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-google"></a>
+
+    </footer>
+    <!--------- Copyright text ------------->
+    <div class="copyright">
+      Copyrights © 2019 All Rights Reserved by Website Inc.
+    </div>
+
+    <!--------- Pre loaded Boiler plate scripts------------->
+    <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+      ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+    <!--------- Pre loaded Boiler plate scripts end------------->
+
+  </body>
+</html>
